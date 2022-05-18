@@ -1,0 +1,6 @@
+Series is a one dimensional array in panda which is like one column hold any data type.
+// code
+import pandas as pd
+import numoy as np
+a = pd.Series(np.random.rand(23))
+a (click on run)
