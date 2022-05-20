@@ -1,0 +1,4 @@
+It is a two dimesnional array which will create multiple columns and rows
+import pandas as pd
+import numpy as np
+a = pd.DataFrame(np.random.rand(330,5), index=np.arange(330))
