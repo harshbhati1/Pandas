@@ -1,0 +1,11 @@
+
+from win32com.client import Dispatch
+def speak(str):
+    speak = Dispatch(("SAPI.SpVoice"))
+    speak.Speak(str)
+
+if __name__ == '__main__':
+    with open("b.txt") as g:
+        for items in g.readlines():
+            speak(items)
+    
